@@ -1,5 +1,18 @@
 # case-innovea
 
+This project queries the NewsAPI api and returns a list of various articles about NodeJs.
+<br><br>
+Return Structure:
+
+```json
+[  
+  author: 'Matt Hargett',
+  title: 'why is nodejs an old, unsupported version but clang is the latest bleeding edge version in 22.04.1?',
+  description: 'Python, clang, and numerous other common development packages are very up to date, but nodejs is comically behind. why? is it due to a dependency on                 a problematic version of libv8, or..?'
+  }
+]
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
